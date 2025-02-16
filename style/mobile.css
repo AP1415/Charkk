@@ -1,0 +1,112 @@
+@media( max-width: 500px){
+    body{
+        padding: 10px;
+    }
+    .header__nav{
+        display:  none; 
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.423);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header__nav-active{
+        display: flex;
+    }
+    .header__link{
+        color: white;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .header{
+        margin-top: 6px;
+        max-width: 100%;
+        width: 100%;
+        overflow: hidden;
+        padding-left: 15px;
+    }
+    .header__logo{
+        display: none;
+    }
+    .burger{
+        width: 120px;
+        height: 36px;
+        background-size: cover;
+    }
+    .header__contacts{
+       display: none;
+    }
+    .header__btn{
+        display: none;
+    }
+    .header__contact{
+        background-image: url(../img/Link\ _img.svg);
+        background-color: #E7EAEE80;
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 53px;
+        padding-left: 0;
+        border: none;
+    }
+    .burger__btn{
+        background-image: url(../img/Button_img.svg);
+        width: 60px;
+        height: 48px ;
+        border: none;
+    }
+    .breadcrumbs{
+        margin-left: 0;
+        max-width: 358px;
+        height: 16px;
+        margin-top: 32px;
+    }
+    .breadcrumbs__text{
+        margin-left: 0;
+    }
+    .specialists{
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .specialists__title{
+        margin-left: 0;
+        font-size: 28px;
+        margin-top: 0;
+    }
+    .specialists__flex{
+        display: flex;
+        max-width: 100%;
+        gap: 16px;
+        flex-direction: column;
+        margin: 32px auto 0;
+    }
+    .specialists__card{
+        width: 100%;
+        height: auto;
+    }
+    .specialists__icon{
+        width: 100%;
+        height: 183px;
+    }
+    .card__title{
+        font-size: 16px;
+        margin-top: 14px;
+        text-align: center;
+    }
+    .card__text{
+        font-size: 12px;
+        margin-top: 6px;
+        text-align: center;
+    }
+    .card__link{
+        font-size: 17px;
+        margin-top: 6px;
+        text-align: center;
+
+    }
+   
+}

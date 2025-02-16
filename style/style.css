@@ -1,0 +1,96 @@
+.header{
+    display: flex;
+    margin: 20px auto 0;
+    max-width: 1920px;
+    background-color: #E7EAEE80;
+    border-radius: 26px;
+    justify-content: space-between;
+    align-items: center;
+}
+.burger{
+    background-image: url(../img/header__img.svg);
+    width: 178px;
+    height: 53px;
+}
+.header__nav{
+    display: flex;
+    gap: 28px;
+    max-width: 900px;
+}
+.header__link-active{
+    border-bottom: 1px solid black;
+    font-size: 19px;
+    font-family: Tilda Sans;
+}
+.header__link{
+    font-size: 19px;
+    line-height: 23px;
+    font-family: Tilda Sans;
+    font-weight: 400;   
+}
+.header__contacts{
+    font-size: 24px;
+    line-height: 29px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+}
+.header__btn{
+    background-color: #292D3A;
+    border-radius: 12px;
+    width: 247px;
+    height: 48px;
+    color: white;
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-right: 42px;
+    margin-left: 32px;
+}
+.breadcrumbs{
+    margin-top: 60px;
+    margin-left: 332px;
+}
+.breadcrumbs__text{
+    font-size: 14px;
+    margin-left: 332px;
+}
+.specialists{
+    max-width: 1870px;
+    margin-left: 332px;
+}
+.specialists__title{
+    margin-top: 50px;
+    font-size: 48px;
+    margin-left: 332px;
+}
+.specialists__flex{
+    display: flex;
+    margin-top: 178px;
+    margin-left: 332px;
+    gap: 28px;
+}
+.specialists__card{
+    width: 291px;
+    height: 471px;
+}
+.specialists__icon{
+    width: 291px;
+    height: 329px;
+}
+.card__title{
+    font-size: 24px;
+    margin-top: 32px;
+}
+.card__text{
+    font-size: 18px;
+    margin-top: 8px;
+}
+.card__link{
+    margin-top: 30px;
+    font-size: 25px;
+    display: block;
+}
+.mobile{
+    display: none;
+}
