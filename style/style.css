@@ -49,7 +49,6 @@
 }
 .breadcrumbs{
     margin-top: 60px;
-    margin-left: 332px;
 }
 .breadcrumbs__text{
     font-size: 14px;
@@ -62,12 +61,10 @@
 .specialists__title{
     margin-top: 50px;
     font-size: 48px;
-    margin-left: 332px;
 }
 .specialists__flex{
     display: flex;
     margin-top: 178px;
-    margin-left: 332px;
     gap: 28px;
 }
 .specialists__card{
@@ -75,8 +72,8 @@
     height: 471px;
 }
 .specialists__icon{
-    width: 291px;
-    height: 329px;
+    max-width: 280px;
+    max-height: 280px;
 }
 .card__title{
     font-size: 24px;

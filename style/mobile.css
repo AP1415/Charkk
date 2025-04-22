@@ -89,8 +89,10 @@
         height: auto;
     }
     .specialists__icon{
-        width: 100%;
-        height: 183px;
+        max-width: 280px;
+        max-height: 280px;
+        margin: auto;
+        display: block;
     }
     .card__title{
         font-size: 16px;
