@@ -1,5 +1,7 @@
+console.log(process.env.URL)
+
 class Api {
-    url = 'http://localhost:4000'
+    url = 'https://charkk-server.onrender.com'
 
     async getPersonals () {
         const res = await fetch(this.url + '/personal')
