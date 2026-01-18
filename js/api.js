@@ -1,4 +1,3 @@
-console.log(process.env.URL)
 
 class Api {
     url = 'https://charkk-server.onrender.com'
