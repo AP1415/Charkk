@@ -1,3 +1,6 @@
+body{
+    padding: 20px;
+}
 .header{
     display: flex;
     margin: 20px auto 0;
@@ -6,11 +9,14 @@
     border-radius: 26px;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
 }
 .burger{
     background-image: url(../img/header__img.svg);
-    width: 178px;
-    height: 53px;
+    width: 137px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .header__nav{
     display: flex;
@@ -19,7 +25,7 @@
 }
 .header__link-active{
     border-bottom: 1px solid black;
-    font-size: 19px;
+    font-size: 16px;
     font-family: Tilda Sans;
 }
 .header__link{
@@ -29,42 +35,35 @@
     font-weight: 400;   
 }
 .header__contacts{
-    font-size: 24px;
+    font-size: 18px;
     line-height: 29px;
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 100px;
 }
 .header__btn{
     background-color: #292D3A;
     border-radius: 12px;
-    width: 247px;
+    width: 140px;
     height: 48px;
     color: white;
     font-size: 14px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-right: 42px;
-    margin-left: 32px;
 }
 .breadcrumbs{
     margin-top: 60px;
 }
 .breadcrumbs__text{
-    font-size: 14px;
-    margin-left: 332px;
+    font-size: 18px;
 }
 .specialists{
     max-width: 1870px;
-    margin-left: 332px;
 }
 .specialists__title{
     margin-top: 50px;
-    font-size: 48px;
+    font-size: 32px;
 }
 .specialists__flex{
     display: flex;
-    margin-top: 178px;
+    margin-top: 30px;
     gap: 28px;
 }
 .specialists__card{

@@ -12,6 +12,7 @@ async function getPersonals(){
             const clone = specialistTemplate.content.cloneNode(true) // создание повторяющегося элемента specialistTemplate
             clone.querySelector('.card__title').textContent = item.surname + ' ' + item.name
             clone.querySelector('img').src = item.image ? item.image : '../img/avatar.png'
+            clone.querySelector('.card__text').textContent = item.post
             clone.querySelector('.card__link').href = `https://t.me/Charkk25_bot?start`
             personalsContainer.append(clone)
         })
